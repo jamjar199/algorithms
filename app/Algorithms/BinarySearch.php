@@ -28,12 +28,6 @@ class BinarySearch
 
             if ($guess === $target) {
 
-                dd([
-                    'guess' => $guess,
-                    'mid' => $mid,
-                    'target' => $target
-                ]);
-
                 return $mid;
             }
 
